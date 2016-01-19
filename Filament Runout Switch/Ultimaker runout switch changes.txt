@@ -1,0 +1,12 @@
+Download Ultimaker 2 Marlin firmware source code:
+
+https://github.com/TinkerGnome/Ultimaker2Marlin/releases/tag/V15.10
+
+find and uncomment filament sensor options in configuration files, as well as set apropriate settings for LID Ultimaker
+
+Build code and load onto LID Ultimaker
+
+wire switch to "EXT I/O" (J23) on main board:
+	COM -> PD7 or PC7
+	NO  -> GND
+	NC  -> +5V
